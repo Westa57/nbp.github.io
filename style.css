@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient( to right, rgba(97,90,90,0.74), rgba(75,169,231,0.733)), url(responsivedesign.png);
+    color:white;
+}
+
+.logo-compainy{
+    color: orange;
+}
+nav{
+    cursor: pointer;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding:  0px;
+    background-color: greenyellow;
+}
+
+.nav_logo{
+display: flex;
+flex-direction: row;
+background-color: greenyellow;
+justify-content: space-between;
+height: 40px;
+}
+
+p.logo-compainy{
+    margin-left: 10px;
+    height:40px;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(0 ,6);
+    
+}
+
+#beauty{
+color: rgb(86, 86, 199);
+font-size: 20px;
+}
+
+nav li{
+    display:inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover{
+    background-color: orange;
+}
+
+/*corp de la page d'acceuil de WESTADEV*/
+h3{
+    color: orange;
+}
+
+.send-color{
+    background-color:blue;
+    border-radius: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+.logo{
+    width:20px;
+    height:20px;
+}
+footer{
+    display:flex;
+    justify-content: space-between ;
+
+}
+
+
+
+footer{
+    margin-top: 80px;
+}
